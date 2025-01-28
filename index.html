@@ -10,54 +10,64 @@
             text-align: center;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-            <!-- Test rebuild -->
+            background-color: #1a1a1a; /* Dark background to match the new logo */
+            color: white;
         }
         .container {
             max-width: 800px;
             margin: 50px auto;
-            background: white;
+            background: #222222;
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            box-shadow: 0px 0px 20px rgba(0,255,0,0.3); /* Green glow effect */
         }
         h1 {
-            color: #228B22;
+            color: #32CD32; /* Green to match TreeHub logo */
+            font-size: 36px;
         }
         p {
-            font-size: 18px;
-            color: #333;
+            font-size: 20px;
+            color: #dddddd;
         }
         .cta-button {
             display: inline-block;
             padding: 15px 30px;
-            background: #228B22;
-            color: white;
+            background: #32CD32;
+            color: black;
             text-decoration: none;
-            font-size: 20px;
+            font-size: 22px;
             border-radius: 5px;
             margin-top: 20px;
+            font-weight: bold;
+            transition: 0.3s;
         }
         .cta-button:hover {
-            background: #1e7a1e;
+            background: #28A428;
+        }
+        .hero-image {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 20px;
         }
         footer {
             margin-top: 30px;
-            font-size: 14px;
-            color: #777;
+            font-size: 16px;
+            color: #aaaaaa;
         }
     </style>
 </head>
 <body>
     <div class="container">
+        <img src="https://source.unsplash.com/800x400/?tree,climbing" alt="Tree Worker" class="hero-image">
         <h1>TreeHub: The Future of Tree Work</h1>
         <p>Connecting tree professionals with jobs, equipment, and opportunities.</p>
         <p>Join the first all-in-one platform built for arborists, climbers, and tree companies.</p>
         <a href="#" class="cta-button">Join the Waitlist</a>
         <footer>
-            <p>Contact: <a href="mailto:info@treehub.com">info@treehub.com</a></p>
-            <p>Follow us: <a href="#">LinkedIn</a> | <a href="#">Facebook</a> | <a href="#">Instagram</a></p>
+            <p>Contact: <a href="mailto:info@treehub.com" style="color: #32CD32;">info@treehub.com</a></p>
+            <p>Follow us: <a href="#" style="color: #32CD32;">LinkedIn</a> | <a href="#" style="color: #32CD32;">Facebook</a> | <a href="#" style="color: #32CD32;">Instagram</a></p>
         </footer>
     </div>
 </body>
 </html>
+
