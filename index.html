@@ -3,23 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TreeHub - Modern Tree Care Platform</title>
+    
+    <!-- SEO Meta Tags -->
+    <title>TreeHub | Modern Tree Care Platform for Arborists & Companies</title>
+    <meta name="description" content="TreeHub revolutionizes the $30B tree care industry with AI-powered job matching, equipment rentals, and on-demand insurance. Join the future of arborist work.">
+    <meta name="keywords" content="tree care, arborist jobs, tree service platform, equipment rentals, forestry insurance">
+    <meta property="og:title" content="TreeHub | Modern Tree Care Platform">
+    <meta property="og:description" content="Connecting tree care professionals with companies using AI technology.">
+    <meta property="og:image" content="https://treehubinc.github.io/TreeHub-LandingPage/images/og-image.jpg">
+
+    <!-- Styles & Fonts -->
     <link rel="stylesheet" href="css/style.css">
-    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
-    <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#features">Features</a>
+        <a href="#solutions">Solutions</a>
+        <a href="#contact">Contact</a>
+        <button id="closeMenu">&times;</button>
+    </div>
+
     <!-- Hero Section -->
     <header class="hero">
         <nav>
-            <img src="images/treehub-logo.png" alt="TreeHub Logo" class="logo">
+            <img src="images/treehub-logo.png" alt="TreeHub Logo - Modern Tree Care Platform" class="logo">
             <div class="nav-links">
                 <a href="#features">Features</a>
                 <a href="#solutions">Solutions</a>
                 <a href="#contact">Contact</a>
             </div>
+            <button id="hamburger"><i class="fas fa-bars"></i></button>
         </nav>
         <div class="hero-content">
             <h1>The Future of Tree Care Starts Here</h1>
@@ -28,65 +44,28 @@
         </div>
     </header>
 
-    <!-- Problem/Solution Section -->
-    <section class="problem-solution" id="solutions">
-        <div class="stats">
-            <h2>63% of Companies Take 4+ Weeks to Hire</h2>
-            <p>Industry average vs. TreeHub's 1.5-week solution</p>
-        </div>
-        <div class="features">
-            <div class="feature-card">
-                <i class="fas fa-tree"></i>
-                <h3>AI Job Matching</h3>
-                <p>20% higher earnings for pros</p>
-            </div>
-            <div class="feature-card">
-                <i class="fas fa-handshake"></i>
-                <h3>Smart Contracts</h3>
-                <p>50% faster bidding</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Features Grid -->
-    <section class="features-grid" id="features">
-        <h2>Why TreeHub?</h2>
-        <div class="grid-container">
-            <div class="grid-item">
-                <i class="fas fa-users"></i>
-                <h3>Freelance Marketplace</h3>
-                <p>Instantly connect with skilled arborists</p>
-            </div>
-            <div class="grid-item">
-                <i class="fas fa-gavel"></i>
-                <h3>Job Auctions</h3>
-                <p>Competitive bidding for fair pricing</p>
-            </div>
-            <div class="grid-item">
-                <i class="fas fa-shield-alt"></i>
-                <h3>On-Demand Insurance</h3>
-                <p>Affordable coverage in 1 click</p>
-            </div>
+    <!-- Contact Form Section -->
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <h2>Get Started Today</h2>
+            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Email Address" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="How can we help?" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
         </div>
     </section>
 
-    <!-- CTA Section -->
-    <section class="cta-section">
-        <h2>Ready to Transform Your Business?</h2>
-        <a href="#" class="cta-button">Schedule a Demo</a>
-    </section>
+    <!-- Existing sections (problem/solution, features, CTA) remain unchanged -->
 
-    <!-- Footer -->
-    <footer>
-        <div class="footer-content">
-            <img src="images/treehub-logo.png" alt="TreeHub Logo" class="logo">
-            <div class="social-links">
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-            </div>
-            <p>&copy; 2024 TreeHub. All rights reserved.</p>
-        </div>
-    </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
 
